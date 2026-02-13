@@ -26,7 +26,7 @@ function calcularTotal() {
 
 function desconto() {
     const v1 = parseFloat(input02.value);
-    const v2 = parseFloat(input01.value);
+    const v2 = parseFloat(input0.value);
 
     if (isNaN(v1) || isNaN(v2)) {
         alert('Valores inválidos. Digite um número.')
@@ -46,7 +46,7 @@ function desconto() {
 
 function juros() {
     const v1 = parseFloat(input02.value);
-    const v2 = parseFloat(input01.value);
+    const v2 = parseFloat(input0.value);
 
     if (isNaN(v1) || isNaN(v2)) {
         alert('Valores inválidos. Digite um número.')
@@ -65,7 +65,7 @@ function juros() {
 
 function comissao() {
     const v1 = parseFloat(input02.value);
-    const v2 = parseFloat(input01.value);
+    const v2 = parseFloat(input0.value);
 
     if (isNaN(v1) || isNaN(v2)) {
         alert('Valores inválidos. Digite um número.')
@@ -84,7 +84,7 @@ function comissao() {
 
 function lucro() {
     const v1 = parseFloat(input02.value);
-    const v2 = parseFloat(input01.value);
+    const v2 = parseFloat(input0.value);
 
     if (isNaN(v1) || isNaN(v2)) {
         alert('Valores inválidos. Digite um número.')
