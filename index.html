@@ -22,49 +22,52 @@
 <body>
   <main class="container">
     <header class="header">
-      <span class="material-symbols-outlined logo-icon">shopping_cart</span>
+      <div class="carrinho">
+         <!-- <span class="material-symbols-outlined logo-icon car">shopping_cart</span> -->
       <h1>ShopSmart<span>Pro</span></h1>
+      </div>
+     
     </header>
 
     <section class="card">
       <div class="inputs">
         <div class="input-group">
-          <label for="valor01" >Valor 01</label>
+          <label for="valor01">Valor 01</label>
           <input type="number" id="valor01" name="valor01" step="0.01" placeholder="Ex: 199.90" required />
         </div>
 
         <div class="input-group">
           <label for="">Valor 02</label>
-          <input type="number" id="valor02" name="valor2" step="0.01" placeholder="Ex: 10" required/>
+          <input type="number" id="valor02" name="valor2" step="0.01" placeholder="Ex: 10" required />
         </div>
       </div>
 
       <div class="buttons">
-        <button onclick="calcularTotal()"><span class="material-symbols-outlined"></span>
+        <button onclick="calcularTotal()" class="botao">
+          <span class="material-symbols-outlined" class="">calculate</span>
           TOTAL
         </button>
-
-        <button onclick="desconto()">
+        <button onclick="desconto()" class="botao">
           <span class="material-symbols-outlined">sell</span>
           DESCONTO
         </button>
 
-        <button onclick="juros()">
+        <button onclick="juros()" class="botao">
           <span class="material-symbols-outlined">trending_up</span>
           JUROS
         </button>
 
-        <button onclick="comissao()">
+        <button onclick="comissao()" class="botao">
           <span class="material-symbols-outlined">payments</span>
           COMISSÃO
         </button>
 
-        <button onclick="lucro()">
+        <button onclick="lucro()" class="botao">
           <span class="material-symbols-outlined">attach_money</span>
           LUCRO
         </button>
 
-        <button class="btn-clear" onclick="limpar()">
+        <button class="btn-clear" onclick="limpar()" class="botao">
           <span class="material-symbols-outlined">delete</span>
           LIMPAR
         </button>
