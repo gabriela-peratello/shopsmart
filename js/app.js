@@ -1,5 +1,5 @@
 
-const input0 = document.getElementById('Valor01');
+const input0 = document.getElementById('valor01');
 const input02 = document.getElementById('valor02');
 
 const resultado = document.getElementById('resultado');

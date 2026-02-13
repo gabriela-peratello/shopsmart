@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./js/app.js">
+
   <link rel="stylesheet" href="./css/style.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap"
@@ -35,13 +35,12 @@
 
         <div class="input-group">
           <label for="">Valor 02</label>
-          <input type="number" id="valor02" name="valor2" tep="0.01" placeholder="Ex: 10" required/>
+          <input type="number" id="valor02" name="valor2" step="0.01" placeholder="Ex: 10" required/>
         </div>
       </div>
 
       <div class="buttons">
-        <button onclick="calcularTotal()">
-          <span class="material-symbols-outlined">calculate</span>
+        <button onclick="calcularTotal()"><span class="material-symbols-outlined"></span>
           TOTAL
         </button>
 
@@ -69,6 +68,7 @@
           <span class="material-symbols-outlined">delete</span>
           LIMPAR
         </button>
+
       </div>
 
       <div class="total">
