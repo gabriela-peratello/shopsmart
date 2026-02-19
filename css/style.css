@@ -1,6 +1,6 @@
-body{
+body {
     background-color: rgb(165, 137, 241);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body{
 
 }
 
-.container{
+.container {
     background-color: rgb(192, 174, 243);
     padding: 2vh;
     margin: 50px;
@@ -20,9 +20,8 @@ body{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.795);
 }
 
-header{
-   
-    padding: 15px;
+header {
+
     border-radius: 20px;
     margin: 15px;
     font-size: xx-large;
@@ -31,8 +30,9 @@ header{
     justify-content: center;
 }
 
-.buttons{
-    background-color:  rgb(192, 174, 243);
+
+.buttons {
+    background-color: rgb(192, 174, 243);
     display: flex;
     align-items: center;
     padding: 50px;
@@ -42,15 +42,15 @@ header{
     color: aliceblue;
 }
 
-.botao{
-    background-color:  rgb(108, 48, 219);
+.botao {
+    background-color: rgb(136, 120, 179);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.226);
 }
 
-.btn-clear{
+.btn-clear {
     background-color: rgb(226, 43, 43);
     padding: 20px;
     border-radius: 20px;
@@ -58,25 +58,22 @@ header{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.226);
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
 
     display: flex;
     justify-content: flex-start;
 
 }
 
-.card{
-    background-color:  rgb(136, 120, 179);
+.card {
+    background-color: rgb(136, 120, 179);
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.548);
-    
+
 }
 
-
-
-
-.inputs{
+.inputs {
     background-color: rgb(192, 174, 243);
     padding: 30px;
     margin: 20px;
@@ -84,11 +81,11 @@ header{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.705);
 }
 
-.input-group{
+.input-group {
     display: flex;
     align-items: center;
-    justify-content:  center;
-    background-color: rgb(139, 107, 228);
+    justify-content: center;
+    background-color: rgb(136, 120, 179);
     padding: 10px;
     color: rgb(0, 0, 0);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.151);
@@ -96,23 +93,38 @@ header{
     margin: 5px;
 }
 
-.input-group label{
+.input-group label {
     text-align: center;
     margin: 8px;
-    background-color: rgb(77, 18, 241);
+    background-color: rgb(136, 120, 1799);
     padding: 5px;
     margin: 10px;
     border-radius: 15px;
     color: white;
 }
 
+h2 {
+    margin-bottom: 20px;
+    padding: 0;
+    background: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
 
 
-.resultado{
-    background-color: rgb(136, 120, 179);
+
+.resultado {
+    background-color: rgb(159, 143, 201);
+    padding: 30px 50px;
     margin: 20px;
     border-radius: 30px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.836);
-    color: white;
-}
+    color: rgb(0, 0, 0);
+    color: aliceblue;
 
+}
