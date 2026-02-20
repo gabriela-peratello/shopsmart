@@ -14,7 +14,7 @@ function calcularTotal() {
     } else {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-         <h2>Total da compra:</h2> 
+        <h2>Total da compra:</h2> 
         <ul>   
             <li>Você está adquirindo ${v1} unidade(s) de R$ ${v2}. </li> 
             <li>Valor total da compra: R$ ${v1 * v2}. </li>
@@ -37,7 +37,7 @@ function desconto() {
 
         <h2>Desconto aplicado:</h2>
         <ul>
-            <li>Foi aplicado um desconto de ${v2}% sobre o valor de R$: ${v1}. </li> 
+            <li>Foi aplicado um desconto de ${v2}% sobre o valor de R$ ${v1}. </li> 
             <li>O valor final com desonto é: R$ ${total}. </li>
         </ul>
         `
