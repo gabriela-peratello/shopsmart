@@ -131,13 +131,7 @@ ul {
 
 li{
     list-style: none;
-    background-color: rgb(233, 44, 44, 0.897);
-    padding: 20px;
-    color: aliceblue;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.87);
 }
-
 .resultado {
     background-color: rgb(178, 204, 204);
     padding: 30px 50px;
