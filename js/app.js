@@ -14,13 +14,12 @@ function calcularTotal() {
         resultado.innerHTML = `
         <h2>Valores inválidos.</h2> 
         <ul>   
-            <li>Adicione algum valor para dar continuidade a operação.</li> 
+            <li>Digite um valor para dar continuidade a operação.</li> 
         </ul>
         `
        
     } else {
         let total = v1 * v2
-
         resultado.style.display = 'flex'
         resultado.innerHTML = `
         <h2>Total da compra:</h2> 
@@ -41,7 +40,7 @@ function desconto() {
         resultado.innerHTML = `
         <h2>Valores inválidos.</h2> 
         <ul>   
-            <li>Adicione algum valor para dar continuidade a operação.</li> 
+            <li>Digite um valor para dar continuidade a operação.</li> 
         </ul>
         `
     } else {
@@ -69,7 +68,7 @@ function juros() {
         resultado.innerHTML = `
         <h2>Valores inválidos.</h2> 
         <ul>   
-            <li>Adicione algum valor para dar continuidade a operação.</li> 
+            <li>Digite um valor para dar continuidade a operação.</li> 
         </ul>
         `
     } else {
@@ -80,7 +79,7 @@ function juros() {
 
         <h2>Acréscimo aplicado:</h2>
         <ul>
-            <li>Foi aplicado um acréscimo de ${v2}% sobre o valor de R$${v1.toFixed(2)}. </li>   
+            <li>Foi aplicado um acréscimo de ${v2}% sobre o valor de R$ ${v1.toFixed(2)}. </li>   
             <li>O valor final com juros: R$ ${total.toFixed(2)}. </li>
         </ul>
         `
@@ -96,7 +95,7 @@ function comissao() {
         resultado.innerHTML = `
         <h2>Valores inválidos.</h2> 
         <ul>   
-            <li>Adicione algum valor para dar continuidade a operação.</li> 
+            <li>Digite um valor para dar continuidade a operação.</li> 
         </ul>
         `
     } else {
@@ -123,11 +122,11 @@ function lucro() {
         resultado.innerHTML = `
         <h2>Valores inválidos.</h2> 
         <ul>   
-            <li>Adicione algum valor para dar continuidade a operação.</li> 
+            <li>Digite um valor para dar continuidade a operação.</li> 
         </ul>
         `
     } else {
-        let total = v1 - 2
+        let total = v1 - v2
 
         resultado.style.display = 'flex'
         resultado.innerHTML = `
