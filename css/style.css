@@ -104,21 +104,39 @@ header {
 }
 
 h2 {
-    margin-bottom: 20px;
-    padding: 0;
+    padding: 20px;
+    border-radius: 10px;
     background: none;
     color: rgb(0, 0, 0);
     background-color: aliceblue;
 }
 
-ul {
+h3{
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
     background: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(233, 44, 44, 0.897);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.87);
 }
 
+ul {
+    list-style: none;
+    padding: 13px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: large;
+}
 
+li{
+    list-style: none;
+    background-color: rgb(233, 44, 44, 0.897);
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.87);
+}
 
 .resultado {
     background-color: rgb(178, 204, 204);

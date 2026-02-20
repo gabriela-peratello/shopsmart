@@ -12,10 +12,9 @@ function calcularTotal() {
     if (isNaN(v1) || isNaN(v2)) {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-        <h2>Valores inválidos.</h2> 
-        <ul>   
-            <li>Digite um valor para dar continuidade a operação.</li> 
-        </ul>
+        <h3>Valores inválidos.</h3> 
+        <li>Digite um valor para dar continuidade a operação.</li> 
+        
         `
        
     } else {
@@ -38,10 +37,9 @@ function desconto() {
     if (isNaN(v1) || isNaN(v2)) {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-        <h2>Valores inválidos.</h2> 
-        <ul>   
-            <li>Digite um valor para dar continuidade a operação.</li> 
-        </ul>
+        <h3>Valores inválidos.</h3> 
+        <li>Digite um valor para dar continuidade a operação.</li> 
+
         `
     } else {
         let desc = v1 * v2 / 100;
@@ -66,10 +64,9 @@ function juros() {
     if (isNaN(v1) || isNaN(v2)) {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-        <h2>Valores inválidos.</h2> 
-        <ul>   
-            <li>Digite um valor para dar continuidade a operação.</li> 
-        </ul>
+        <h3>Valores inválidos.</h3> 
+        <li>Digite um valor para dar continuidade a operação.</li> 
+       
         `
     } else {
         let acres = v1 * v2 / 100;
@@ -93,10 +90,8 @@ function comissao() {
     if (isNaN(v1) || isNaN(v2)) {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-        <h2>Valores inválidos.</h2> 
-        <ul>   
+        <h3>Valores inválidos.</h3> 
             <li>Digite um valor para dar continuidade a operação.</li> 
-        </ul>
         `
     } else {
         let acres = v2 / 100;
@@ -120,10 +115,8 @@ function lucro() {
     if (isNaN(v1) || isNaN(v2)) {
         resultado.style.display = 'flex'
         resultado.innerHTML = `
-        <h2>Valores inválidos.</h2> 
-        <ul>   
+        <h3>Valores inválidos.</h3> 
             <li>Digite um valor para dar continuidade a operação.</li> 
-        </ul>
         `
     } else {
         let total = v1 - v2
